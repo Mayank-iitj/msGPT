@@ -1,0 +1,36 @@
+/* This file contains CSS rules for transitions applied to elements, ensuring a seamless experience when elements change state. */
+
+.button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.fade-in {
+    transition: opacity 0.5s ease-in;
+    opacity: 0;
+}
+
+.fade-in-active {
+    opacity: 1;
+}
+
+.slide-in {
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-20px);
+}
+
+.slide-in-active {
+    transform: translateY(0);
+}
+
+.scale-up {
+    transition: transform 0.3s ease;
+    transform: scale(0.95);
+}
+
+.scale-up-active {
+    transform: scale(1);
+}

@@ -1,0 +1,31 @@
+{
+  "name": "msGPT",
+  "version": "1.0.0",
+  "description": "A chat application that integrates with a specified API.",
+  "main": "src/App.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  },
+  "keywords": [
+    "chat",
+    "application",
+    "react",
+    "msGPT"
+  ],
+  "author": "Mayank Sharma",
+  "license": "MIT"
+}
